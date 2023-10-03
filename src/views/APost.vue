@@ -9,8 +9,6 @@
     const id = parseInt(route.params.id);
 
     const items = ref({});
-    // const url = ref('https://jsonplaceholder.typicode.com/posts/id');
-    // const url = ref('https://jsonplaceholder.typicode.com/posts/`' +id.value);
 
     const url = ref(`https://jsonplaceholder.typicode.com/posts/${id}`);
 
